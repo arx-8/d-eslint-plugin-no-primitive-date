@@ -15,7 +15,8 @@
     "lint:format": "prettier --write .",
     "lint:tsc": "tsc --noEmit",
     "lint": "npm-run-all --parallel --continue-on-error lint:eslint lint:format lint:tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-ci": "jest --ci",
+    "test": "jest --watch",
     "update-all": "npx npm-check-updates -u"
   },
   "devDependencies": {

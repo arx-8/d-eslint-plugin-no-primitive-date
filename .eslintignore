@@ -1,4 +1,6 @@
 .eslintrc.js
 .vscode/*
+babel.config.js
 dist/*
+jest.config.js
 node_modules/*
