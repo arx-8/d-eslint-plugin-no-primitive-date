@@ -1,5 +1,6 @@
 {
-  "name": "eslint-plugin-no-primitive-date",
+  "name": "eslint-plugin-no-dangerous",
+  "description": "Prohibit dangerous functions.",
   "version": "0.0.1",
   "engines": {
     "node": "^16",
