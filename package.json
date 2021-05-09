@@ -11,6 +11,9 @@
     "eslint",
     "eslint-plugin"
   ],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.build.json",
