@@ -14,6 +14,7 @@
   "files": [
     "dist"
   ],
+  "repository": "https://github.com/arx-8/eslint-plugin-no-dangerous",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.build.json",
