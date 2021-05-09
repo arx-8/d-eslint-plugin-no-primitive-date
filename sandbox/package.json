@@ -1,0 +1,18 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": "^16",
+    "npm": "^7"
+  },
+  "main": "index.js",
+  "scripts": {
+    "eslint-print-config": "eslint -c ./.eslintrc.js --print-config ./src/index.ts > misc/eslint-print-config.json",
+    "lint": "eslint -c ./.eslintrc.js src"
+  },
+  "devDependencies": {
+    "eslint": "7.26.0",
+    "eslint-plugin-no-dangerous": "file:../"
+  }
+}
