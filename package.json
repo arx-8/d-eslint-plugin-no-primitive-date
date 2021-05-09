@@ -7,6 +7,10 @@
     "npm": "^7"
   },
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.build.json",
