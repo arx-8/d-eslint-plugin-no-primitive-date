@@ -7,7 +7,9 @@
     "npm": "^7"
   },
   "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc --project ./tsconfig.build.json",
     "eslint-print-config": "eslint --print-config src/index.ts > misc/eslint-print-config.json",
     "lint-dry": "npm-run-all --parallel --continue-on-error lint:eslint-dry lint:format-dry lint:tsc",
     "lint:eslint-dry": "eslint -c .eslintrc.js src",
