@@ -28,5 +28,5 @@
   "editor.formatOnSave": true,
   "prettier.prettierPath": "./node_modules/prettier",
   /** esbenp.prettier-vscode */
-  "cSpell.words": ["destructure"]
+  "cSpell.words": ["TSES", "destructure", "espree"]
 }
