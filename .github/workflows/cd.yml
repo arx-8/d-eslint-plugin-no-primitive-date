@@ -2,8 +2,8 @@ name: Release on npm
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - "*"
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 14
 
       - name: Get npm cache directory
         id: npm-cache-dir
@@ -30,14 +30,16 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run lint-dry
+      # - run: npm run lint-dry
 
-      - run: npm run test-ci
+      # - run: npm run test-ci
+      - run: node -v
+      - run: npm -v
 
       # @see https://github.com/actions/setup-node/issues/213
       # Workaround, but not working
-      - name: npm 7
-        run: npm i -g npm@7 --registry=https://registry.npmjs.org
+      # - name: npm 7
+      #   run: npm i -g npm@7 --registry=https://registry.npmjs.org
 
       - run: npm publish
         env:

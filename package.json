@@ -2,10 +2,6 @@
   "name": "eslint-plugin-no-dangerous",
   "description": "Prohibit dangerous functions.",
   "version": "0.0.3",
-  "engines": {
-    "node": "^16",
-    "npm": "^7"
-  },
   "license": "MIT",
   "keywords": [
     "eslint",
