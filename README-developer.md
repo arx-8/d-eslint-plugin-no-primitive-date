@@ -10,7 +10,7 @@ npm version patch
 
 ### Publish
 
-```s
-npm run build
-npm publish
+```sh
+# Push only the latest tag.
+git push && git push origin $(git describe --tags --abbrev=0)
 ```
