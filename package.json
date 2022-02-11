@@ -2,10 +2,6 @@
   "name": "eslint-plugin-no-dangerous",
   "description": "Prohibit dangerous functions.",
   "version": "0.0.3",
-  "engines": {
-    "node": "^16",
-    "npm": "^7"
-  },
   "license": "MIT",
   "keywords": [
     "eslint",
@@ -14,6 +10,13 @@
   "files": [
     "dist"
   ],
+  "author": {
+    "email": "swans.randomness@gmail.com",
+    "name": "arx-8"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": "https://github.com/arx-8/eslint-plugin-no-dangerous",
   "main": "dist/index.js",
   "scripts": {
