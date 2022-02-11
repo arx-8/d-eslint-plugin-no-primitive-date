@@ -14,3 +14,7 @@ npm version patch
 npm run build
 npm publish
 ```
+
+## Docs
+
+- https://eslint.org/docs/developer-guide/working-with-rules
