@@ -33,4 +33,9 @@ module.exports = {
 
 - [no-dangerous/no-dangerous-date](https://github.com/arx-8/eslint-plugin-no-dangerous/blob/main/docs/no-dangerous-date.md)
 
+## Special thanks
+
+- https://github.com/tyankatsu0105/eslint-plugin
+- https://github.com/1natsu172/eslint-summer
+
 ## :shield: Happy Safe Coding :shield:
